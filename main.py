@@ -1,9 +1,10 @@
-import os
+import os,telebot
+
+import requests
 
 # pyTelegramBotAPI boto
 
 is_prod = os.environ.get('IS_HEROKU', None)
 
-bot_token = os.environ.get('TELEGRAM TOKEN', "")
+bot_token = os.environ.get('TELEGRAM_TOKEN', "")
 
-print(bot_token)
