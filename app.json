@@ -4,4 +4,19 @@
   "repository": "https://github.com/heroku/button-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"]
+  
+  "env": {
+        "CHANNEL_ID": {
+            "description": "Fill this if you using environ variable as config.",
+            "value": "Yes"
+        },
+        "TELEGRAM_BOT_TOKEN": {
+            "description": "Get from https://my.telegram.org",
+            "value": "Yes"
+        },
+        "BOT_ADMIN": {
+            "description": "Get from https://my.telegram.org",
+            "value": "Yes"
+        }
+    }
 }
