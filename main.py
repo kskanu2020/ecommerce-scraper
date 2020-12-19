@@ -1,7 +1,5 @@
 import os
 
-import requests,telebot
-
 # pyTelegramBotAPI boto
 
 is_prod = os.environ.get('IS_HEROKU', None)
